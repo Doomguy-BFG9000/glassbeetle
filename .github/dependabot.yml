@@ -3,6 +3,7 @@ version: 2
 updates:
   - package-ecosystem: "npm"
     directory: "/"
+    target-branch: "validation/dependabot-after-135-isolated"
     # One weekly batch and a five-PR cap keep three workspaces current without
     # turning the issue tracker into a dependency-update queue.
     schedule:
